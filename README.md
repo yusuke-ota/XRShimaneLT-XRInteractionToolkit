@@ -1,0 +1,2 @@
+# XRShimaneInteractionToolkit
+地域おこしXR研究会第5回勉強会の発表準備用
