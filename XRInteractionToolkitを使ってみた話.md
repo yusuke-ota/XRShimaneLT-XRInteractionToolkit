@@ -53,7 +53,6 @@ Unreal Engine、シェーダー、サーバー
 
 ![https://blogs.unity3d.com/wp-content/uploads/2020/01/image1-2.png](./DocumentImage/image1-2.png)
 <!--
-公開用に画像を削除しました
 この画像を表示していました
 <https://blogs.unity3d.com/wp-content/uploads/2020/01/image1-2.png>
 -->
@@ -110,6 +109,7 @@ ARCore XR PluginやARKit XR Pluginが
 
 * **VR**: つかむ動作等
 * **AR**: ARレイキャスト等
+
 </div>
 
 ---
@@ -121,12 +121,10 @@ ARCore XR PluginやARKit XR Pluginが
 // TODO: 調べる
 |機能|AR|VR|
 |:--:|:--:|:--:|
-||||
-||||
-||||
-||||
-||||
-||||
+|オブジェクトインタラクション|〇|〇|
+|UIインタラクション|〇|〇|
+|オブジェクト配置|〇|×|
+|ロコモーション|×|〇|
 
 ---
 
