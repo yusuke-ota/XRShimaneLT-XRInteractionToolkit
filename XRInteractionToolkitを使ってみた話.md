@@ -1,46 +1,30 @@
 ---
-marp: true
-theme: gaia
-paginate: true
-style: |
-  section {
-    padding-top: 80px;
-  }
-  footer {
-    margin-left: 20px;
-  }
-  h1 {
-    padding-top: 100px;
-  }
-  h2 {
-    font-weight: 100;
-  }
-  h3 {
-    margin-top: 10px;
-    font-weight: 100;
-    color: #11a3d4;
-  }
-  h4 {
-    font-weight: 100;
-  }
-  ul li {
-    padding-bottom: 20px;
-  }
-  ul ul li {
-    padding-bottom: 0px;
-  }
-  code {
-    background: #eee;
-    color: #000;
-  }
+theme : "black"
+transition : "default"
 ---
 
-# XR Interaction Toolkitを使ってみた話
+<style type="text/css">
+  .reveal h1,
+  .reveal h2,
+  .reveal h3,
+  .reveal h4,
+  .reveal h5,
+  .reveal h6 {
+    text-transform: none;
+  }
+  p { text-align: left; }
+</style>
 
+# XR Interaction Toolkit
+## を使ってみた話
+
+<div style="float:right;">
 @yusuke-ota
+</dev>
 
 ---
-<!-- 
+
+<!--
 XR開発環境(Unity公式周り)
 MARS
 AR Foundation
@@ -51,55 +35,82 @@ XR Interaction Toolkit
 
 -->
 
-## XR開発環境(Unity公式周り)
+## 自己紹介
 
-![h:350](./DocumentImage/image1-2.png)
+@yusuke-ota(twitterも同名)
 
+事務職、日曜プログラマー  
+C++(PlatformIO)、C#(Unity)、Rust、Ruby
+
+最近気になること  
+Unreal Engine、シェーダー、サーバー
+
+---
+
+## XR開発環境(Unity公式)
+
+<div style="width: 60%; float: left">
+
+![https://blogs.unity3d.com/wp-content/uploads/2020/01/image1-2.png](./DocumentImage/image1-2.png)
 <!--
 公開用に画像を削除しました
 この画像を表示していました
 <https://blogs.unity3d.com/wp-content/uploads/2020/01/image1-2.png>
 -->
+</div>
 
-[画像引用] Unity XR プラットフォームの最新情報
-<https://blogs.unity3d.com/jp/2020/01/24/unity-xr-platform-updates/>
+<div style="width: 40%; float: right">
+
+[画像引用]  
+Unity XR  
+プラットフォームの  
+最新情報
+https://blogs.unity3d.com/jp/2020/01/24/unity-xr-platform-updates/
+</div>
 
 ---
 
 ### MARS
 
-は分からないので、飛ばします
+は分からないので、飛ばします  
+(preview版が出たら触りたい)
 
 ---
 
 ### AR Foundationとは
 
-別機種間のAR関係の処理を同じコードで書ける
+別機種間のAR関係の処理を**同じコード**で書ける
 
-**Ver3.x**
+**Ver3.x**  
 AR Core、AR Kit対応
 
-**Ver4.x(preview)**
+**Ver4.x(preview)**  
 AR Core、AR Kit、**HoloLens、Magic Leap One**対応
 
 ---
 
 ### AR Foundation蛇足
 
-AR FoundationでARアプリを作って
+AR FoundationでARアプリを作って  
 実機上で起動できない(起動してすぐに落ちる)場合
 
-ARCore XR PluginやARKit XR Pluginが**入っていない可能性が高い**
+ARCore XR PluginやARKit XR Pluginが  
+**入っていない可能性が高い**
+
+// TODO: 動画再生
 
 ---
 
 ### XR Interaction Toolkitとは
 
-XR系でよく使う入力周りのあれこれの実装を楽にしてくれる
+入力周りのあれこれの実装を楽にしてくれる  
 **処理の共通化もできる**
+
+<div style="float: left;">
 
 * **VR**: つかむ動作等
 * **AR**: ARレイキャスト等
+</div>
 
 ---
 
@@ -121,24 +132,35 @@ XR系でよく使う入力周りのあれこれの実装を楽にしてくれる
 
 ### デモ動画
 
-// TODO: 再生
+// TODO: 動画再生
 
 ---
 
 ### 機能〇〇
 
-Unity上の画像 | AR上の画像
+<div style="float:left;">
+
+Unity上の画像
+</div>
+
+<div style="float:right;">
+
+AR上の画像
+</div>
 
 ---
 
 ## まとめ
 
-* UnityはXR系の開発環境を一本化使用としているぞ
+<div style="float:left; font-size: 35px" >
+
+* UnityはXR系の開発環境を一本化しようとしているぞ
 * AR,MR周りはAR Foundationを使うといいぞ
-* XR Interaction Toolkitを使うと人間からの入力を共通化できるぞ
+* XR Interaction Toolkitで人間からの入力を共通化できるぞ
 * なんかXR Interaction Toolkitの機能の説明をしたぞ
 
 そんなことより**〇〇 XR Pluginの入れ忘れに気を付けよう**
+</div>
 
 ---
 
@@ -151,7 +173,7 @@ Unity上の画像 | AR上の画像
 
 ---
 
-## 参考文献((XR Interaction Toolkit)
+## 参考文献(XR Interaction Toolkit)
 
 * XR Interaction ツールキットのプレビューパッケージ公開
 <https://blogs.unity3d.com/jp/2019/12/17/xr-interaction-toolkit-preview-package-is-here/>

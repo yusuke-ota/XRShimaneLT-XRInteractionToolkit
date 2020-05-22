@@ -4,7 +4,7 @@
 
 ## 使用ツール
 
-* Marpit  
+* vscode-reveal  
 マークダウンをスライドに変換するのに使用
 
 * Unity  
