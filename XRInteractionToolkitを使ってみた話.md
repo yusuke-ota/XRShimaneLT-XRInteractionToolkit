@@ -37,9 +37,9 @@ XR Interaction Toolkit
 
 ## 自己紹介
 
-@yusuke-ota(twitterも同名)
+@yusuke-ota
 
-事務職、日曜プログラマー  
+アマチュアプログラマー  
 C++(PlatformIO)、C#(Unity)、Rust、Ruby
 
 最近気になること  
@@ -51,11 +51,7 @@ Unreal Engine、シェーダー、サーバー
 
 <div style="width: 60%; float: left">
 
-![https://blogs.unity3d.com/wp-content/uploads/2020/01/image1-2.png](./DocumentImage/image1-2.png)
-<!--
-この画像を表示していました
-<https://blogs.unity3d.com/wp-content/uploads/2020/01/image1-2.png>
--->
+<img src="https://blogs.unity3d.com/wp-content/uploads/2020/01/image1-2.png" alt="Unity XR Tech Stack">
 </div>
 
 <div style="width: 40%; float: right">
@@ -64,7 +60,7 @@ Unreal Engine、シェーダー、サーバー
 Unity XR  
 プラットフォームの  
 最新情報
-https://blogs.unity3d.com/jp/2020/01/24/unity-xr-platform-updates/
+<https://blogs.unity3d.com/jp/2020/01/24/unity-xr-platform-updates/>
 </div>
 
 ---
@@ -105,12 +101,8 @@ ARCore XR PluginやARKit XR Pluginが
 入力周りのあれこれの実装を楽にしてくれる  
 **処理の共通化もできる**
 
-<div style="float: left;">
-
-* **VR**: つかむ動作等
-* **AR**: ARレイキャスト等
-
-</div>
+**VR**: つかむ動作等  
+**AR**: ARレイキャスト等
 
 ---
 
@@ -124,7 +116,7 @@ ARCore XR PluginやARKit XR Pluginが
 |オブジェクトインタラクション|〇|〇|
 |UIインタラクション|〇|〇|
 |オブジェクト配置|〇|×|
-|ロコモーション|×|〇|
+|ロコモーション(テレポーテション)|×|〇|
 
 ---
 
@@ -150,32 +142,40 @@ AR上の画像
 
 ## まとめ
 
-<div style="float:left; font-size: 35px" >
+<span style="font-size: 35px" >
 
-* UnityはXR系の開発環境を一本化しようとしているぞ
-* AR,MR周りはAR Foundationを使うといいぞ
-* XR Interaction Toolkitで人間からの入力を共通化できるぞ
-* なんかXR Interaction Toolkitの機能の説明をしたぞ
+UnityはXR系の開発環境を一本化しようとしているぞ  
+AR,MR周りはAR Foundationを使うといいぞ  
+XR Interaction Toolkitで人間からの入力を共通化できるぞ  
+なんかXR Interaction Toolkitの機能の説明をしたぞ  
 
-そんなことより**〇〇 XR Pluginの入れ忘れに気を付けよう**
-</div>
+</span>
+
+<span style="font-size: 50px" >
+
+そんなことより  
+**〇〇 XR Pluginの入れ忘れに気を付けよう**
+</span>
 
 ---
 
 ## 参考文献
 
-* Unity XR プラットフォームの最新情報
+Unity XR プラットフォームの最新情報  
 <https://blogs.unity3d.com/jp/2020/01/24/unity-xr-platform-updates/>
-* About AR Foundation
+
+About AR Foundation  
 <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.0/manual/index.html>
 
 ---
 
 ## 参考文献(XR Interaction Toolkit)
 
-* XR Interaction ツールキットのプレビューパッケージ公開
+XR Interaction ツールキットのプレビューパッケージ公開  
 <https://blogs.unity3d.com/jp/2019/12/17/xr-interaction-toolkit-preview-package-is-here/>
-* XR Interaction Toolkit
+
+XR Interaction Toolkit  
 <https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@0.9/manual/index.html>
-* XR Interaction Examples
+
+XR Interaction Examples  
 <https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples>
