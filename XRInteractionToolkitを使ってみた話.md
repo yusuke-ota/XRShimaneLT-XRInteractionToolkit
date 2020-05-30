@@ -19,16 +19,13 @@ transition : "default"
 ## を使ってみた話
 
 <div style="float:right;">
+
 @yusuke-ota
-</dev>
+</div>
 
 ---
 
 <!--
-XR開発環境(Unity公式周り)
-MARS
-AR Foundation
-XR Interaction Toolkit
 使ってみる
 * VR(サンプルデモで大体わかるから割愛)
 * AR <= サンプルがほとんど無いので、触ってみて、まとめる
@@ -61,6 +58,7 @@ Unity XR
 プラットフォームの  
 最新情報
 <https://blogs.unity3d.com/jp/2020/01/24/unity-xr-platform-updates/>
+
 </div>
 
 ---
@@ -111,8 +109,9 @@ ARCore XR PluginやARKit XR Pluginが
 ### AR、VRでの機能対応表
 
 // TODO: 調べる
+
 |機能|AR|VR|
-|:--:|:--:|:--:|
+|:---:|:---:|:---:|
 |オブジェクトインタラクション|〇|〇|
 |UIインタラクション|〇|〇|
 |オブジェクト配置|〇|×|
@@ -131,6 +130,7 @@ ARCore XR PluginやARKit XR Pluginが
 <div style="float:left;">
 
 Unity上の画像
+
 </div>
 
 <div style="float:right;">
@@ -155,6 +155,7 @@ XR Interaction Toolkitで人間からの入力を共通化できるぞ
 
 そんなことより  
 **〇〇 XR Pluginの入れ忘れに気を付けよう**
+
 </span>
 
 ---
