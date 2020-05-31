@@ -12,7 +12,6 @@ transition : "default"
   .reveal h6 {
     text-transform: none;
   }
-  p { text-align: left; }
 </style>
 
 # XR Interaction Toolkit
@@ -21,13 +20,12 @@ transition : "default"
 <div style="float:right;">
 
 @yusuke-ota
+
 </div>
 
 ---
 
 <!--
-使ってみる
-* VR(サンプルデモで大体わかるから割愛)
 * AR <= サンプルがほとんど無いので、触ってみて、まとめる
 
 -->
@@ -36,10 +34,10 @@ transition : "default"
 
 @yusuke-ota
 
-アマチュアプログラマー  
+**アマチュアプログラマー**  
 C++(PlatformIO)、C#(Unity)、Rust、Ruby
 
-最近気になること  
+**最近気になること**  
 Unreal Engine、シェーダー、サーバー
 
 ---
@@ -49,9 +47,10 @@ Unreal Engine、シェーダー、サーバー
 <div style="width: 60%; float: left">
 
 <img src="https://blogs.unity3d.com/wp-content/uploads/2020/01/image1-2.png" alt="Unity XR Tech Stack">
+
 </div>
 
-<div style="width: 40%; float: right">
+<div style="width: 40%; float: right; text-align: left;">
 
 [画像引用]  
 Unity XR  
@@ -73,6 +72,7 @@ Unity XR
 ### AR Foundationとは
 
 別機種間のAR関係の処理を**同じコード**で書ける
+(機種依存機能は除く)
 
 **Ver3.x**  
 AR Core、AR Kit対応
@@ -84,11 +84,15 @@ AR Core、AR Kit、**HoloLens、Magic Leap One**対応
 
 ### AR Foundation蛇足
 
+<div style="text-align: left;">
+
 AR FoundationでARアプリを作って  
 実機上で起動できない(起動してすぐに落ちる)場合
 
 ARCore XR PluginやARKit XR Pluginが  
 **入っていない可能性が高い**
+
+</div>
 
 // TODO: 動画再生
 
@@ -96,11 +100,14 @@ ARCore XR PluginやARKit XR Pluginが
 
 ### XR Interaction Toolkitとは
 
-入力周りのあれこれの実装を楽にしてくれる  
-**処理の共通化もできる**
+<div style="text-align: left;">
 
-**VR**: つかむ動作等  
-**AR**: ARレイキャスト等
+入力周りのあれこれの実装を楽にしてくれる  
+
+</div>
+
+**VR**: UI操作、つかむ動作、スナップ機能、歩行  
+**AR**: UI操作、オブジェクト操作、オブジェクト生成
 
 ---
 
@@ -108,14 +115,12 @@ ARCore XR PluginやARKit XR Pluginが
 
 ### AR、VRでの機能対応表
 
-// TODO: 調べる
-
 |機能|AR|VR|
 |:---:|:---:|:---:|
 |オブジェクトインタラクション|〇|〇|
 |UIインタラクション|〇|〇|
 |オブジェクト配置|〇|×|
-|ロコモーション(テレポーテション)|×|〇|
+|ロコモーション|×|〇|
 
 ---
 
@@ -125,7 +130,27 @@ ARCore XR PluginやARKit XR Pluginが
 
 ---
 
-### 機能〇〇
+## オブジェクトインタラクション
+
+**Interactor**
+
+動作の主体(主にコントローラ)
+
+**Interactable**
+
+動作の客体(主にキューブなどのオブジェクト)
+
+---
+
+### Interactor
+
+動作の主体(主にコントローラ)
+
+---
+
+#### XRRayInteractor
+
+レイキャストを出す機能、物の指定とか
 
 <div style="float:left;">
 
@@ -136,7 +161,160 @@ Unity上の画像
 <div style="float:right;">
 
 AR上の画像
+
 </div>
+
+---
+
+#### XRDirectInteractor
+
+<div style="float:left;">
+
+Unity上の画像
+
+</div>
+
+<div style="float:right;">
+
+AR上の画像
+
+</div>
+
+---
+
+#### XRSocketInteractor
+
+対応するオブジェクトを設定した位置に戻す機能
+イメージとしては磁石
+
+<div style="float:left;">
+
+Unity上の画像
+
+</div>
+
+<div style="float:right;">
+
+AR上の画像
+
+</div>
+
+---
+
+### Interactable
+
+動作の客体(主にキューブなどのオブジェクト)
+
+---
+
+#### XRSimpleInteractable
+
+カーソルの操作によってイベントを発火させることができる機能
+
+<div style="float:left;">
+
+Unity上の画像
+
+</div>
+
+<div style="float:right;">
+
+AR上の画像
+
+</div>
+
+---
+
+#### XRGrabInteractable
+
+XRSimpleInteractable + つかむ機能  
+基本的に持ち運び出来るオブジェクトにはこっち
+
+<div style="float:left;">
+
+Unity上の画像
+
+Velocity: 速度を加えて移動させる(ばねっぽい挙動)  
+Kinematic: 座標を書き換えて移動させる  
+Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
+
+</div>
+
+<div style="float:right;">
+
+AR上の画像
+
+</div>
+
+---
+
+#### XRTintInteractableVisual
+
+カーソルホバー、選択時などで、オブジェクトの色を変えて強調する機能  
+[Emission](https://docs.unity3d.com/ja/2019.1/Manual/StandardShaderMaterialParameterEmission.html) 対応のシェーダーが必要らしい
+要Interactable
+
+<div style="float:left;">
+
+Unity上の画像
+
+</div>
+
+<div style="float:right;">
+
+AR上の画像
+
+</div>
+
+---
+
+#### ARGestureInteractor
+
+タップ、スワイプ、ピンチなどで、オブジェクトを操作する機能
+**はまりポイント**: AR CameraにMainCameraタグが必要
+
+<!-- 
+GetValidTargets()内でCamera.mainを使用する -> 
+MainCameraタグが必要 -> 
+しかしAR CameraにはデフォルトでMainCameraタグがついていない
+-->
+
+<div style="float:left;">
+
+![](./ImageForDocument/MainCameraタグ.png)
+
+</div>
+
+<div style="float:right;">
+
+AR上の画像
+
+</div>
+
+---
+
+## UIインタラクション
+
+### TrackedDeviceGraphicRaycaster
+
+uGUIに重ねて使う  
+XRRayInteractorで操作出来るようになる
+
+<div style="float:left;">
+
+Unity上の画像
+
+</div>
+
+<div style="float:right;">
+
+AR上の画像
+
+</div>
+
+---
+
+## オブジェクト配置
 
 ---
 
