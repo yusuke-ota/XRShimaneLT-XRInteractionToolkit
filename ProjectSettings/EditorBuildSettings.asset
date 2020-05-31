@@ -11,11 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/VR/Intractor Demo/Direct Interactor.unity
     guid: eb43c64084d79824895b96e19d7017c1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR/ARGesture Interactor.unity
     guid: db5df42a51319e74fbbadbe38821ad1f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b0122ca7d169f0e448c24c86aa5b607e,
       type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 386b1a4b6791c864aadaaf6c7de4e2eb,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3494163d39ffa8d43aa0535ff793d29a,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: dbd50725c86995d4695e36cd8c0f03bf,
       type: 2}
