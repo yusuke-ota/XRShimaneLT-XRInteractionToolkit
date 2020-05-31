@@ -71,7 +71,7 @@ Unity XR
 
 ### AR Foundationとは
 
-別機種間のAR関係の処理を**同じコード**で書ける
+別機種間のAR関係の処理を**同じコード**で書ける  
 (機種依存機能は除く)
 
 **Ver3.x**  
@@ -230,13 +230,13 @@ AR上の画像
 XRSimpleInteractable + つかむ機能  
 基本的に持ち運び出来るオブジェクトにはこっち
 
-<div style="float:left;">
+<div style="float:left; text-align: left;">
 
 Unity上の画像
 
-Velocity: 速度を加えて移動させる(ばねっぽい挙動)  
+<!-- Velocity: 速度を加えて移動させる(ばねっぽい挙動)  
 Kinematic: 座標を書き換えて移動させる  
-Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
+Instantaneous: Physicsがかからない(Dynamic updateっていつ?) -->
 
 </div>
 
@@ -251,7 +251,7 @@ AR上の画像
 #### XRTintInteractableVisual
 
 カーソルホバー、選択時などで、オブジェクトの色を変えて強調する機能  
-[Emission](https://docs.unity3d.com/ja/2019.1/Manual/StandardShaderMaterialParameterEmission.html) 対応のシェーダーが必要らしい
+[Emission](https://docs.unity3d.com/ja/2019.1/Manual/StandardShaderMaterialParameterEmission.html) 対応のシェーダーが必要らしい  
 要Interactable
 
 <div style="float:left;">
@@ -324,7 +324,7 @@ AR上の画像
 
 UnityはXR系の開発環境を一本化しようとしているぞ  
 AR,MR周りはAR Foundationを使うといいぞ  
-XR Interaction Toolkitで人間からの入力を共通化できるぞ  
+(ARとVRは別だが)人間からの入力を共通化できるぞ  
 なんかXR Interaction Toolkitの機能の説明をしたぞ  
 
 </span>
