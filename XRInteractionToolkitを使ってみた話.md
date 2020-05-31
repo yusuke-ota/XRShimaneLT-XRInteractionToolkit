@@ -65,7 +65,7 @@ Unity XR
 ### MARS
 
 は分からないので、飛ばします  
-(preview版が出たら触りたい)
+(6/1から使えるらしい)
 
 ---
 
@@ -94,7 +94,11 @@ ARCore XR PluginやARKit XR Pluginが
 
 </div>
 
-// TODO: 動画再生
+---
+
+ARCoreXRPluginがない時の動作.gif
+
+![ARCoreXRPluginがない時の動作.gif](./ImageForDocument/ARCoreXRPluginがない時の動作.gif)
 
 ---
 
@@ -121,12 +125,6 @@ ARCore XR PluginやARKit XR Pluginが
 |UIインタラクション|〇|〇|
 |オブジェクト配置|〇|×|
 |ロコモーション|×|〇|
-
----
-
-### デモ動画
-
-// TODO: 動画再生
 
 ---
 
@@ -168,6 +166,10 @@ AR上の画像
 
 #### XRDirectInteractor
 
+直接オブジェクトを触って操作する機能  
+Coliderが必要  
+よくわかんなかった
+
 <div style="float:left;">
 
 Unity上の画像
@@ -184,7 +186,7 @@ AR上の画像
 
 #### XRSocketInteractor
 
-対応するオブジェクトを設定した位置に戻す機能
+対応するオブジェクトを設定した位置に戻す機能  
 イメージとしては磁石
 
 <div style="float:left;">
@@ -195,7 +197,7 @@ Unity上の画像
 
 <div style="float:right;">
 
-AR上の画像
+VR上の画像
 
 </div>
 
@@ -229,20 +231,21 @@ AR上の画像
 
 XRSimpleInteractable + つかむ機能  
 基本的に持ち運び出来るオブジェクトにはこっち
+<video height="500"><source src="ImageForDocument/GrabInteractable.mp4"></video>
 
-<div style="float:left; text-align: left;">
+---
 
-Unity上の画像
+<div style="width:70%; float:left;">
 
-<!-- Velocity: 速度を加えて移動させる(ばねっぽい挙動)  
-Kinematic: 座標を書き換えて移動させる  
-Instantaneous: Physicsがかからない(Dynamic updateっていつ?) -->
+<img src=ImageForDocument/XRGrabInstractable.png>
 
 </div>
 
-<div style="float:right;">
+<div style="width:30%; float:right; font-size: 30px; text-align: left;">
 
-AR上の画像
+Velocity: 速度を加えて移動させる(ばねっぽい挙動)  
+Kinematic: 座標を書き換えて移動させる  
+Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
 
 </div>
 
@@ -270,7 +273,7 @@ AR上の画像
 
 #### ARGestureInteractor
 
-タップ、スワイプ、ピンチなどで、オブジェクトを操作する機能
+タップ、スワイプ、ピンチなどで、オブジェクトを操作する機能  
 **はまりポイント**: AR CameraにMainCameraタグが必要
 
 <!-- 
@@ -281,7 +284,7 @@ MainCameraタグが必要 ->
 
 <div style="float:left;">
 
-![](./ImageForDocument/MainCameraタグ.png)
+![MainCameraタグ](./ImageForDocument/MainCameraタグ.png)
 
 </div>
 
