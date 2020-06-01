@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/VR/Intractor Demo/Ray Interactor.unity
+    path: Assets/Scenes/XR/Intractor Demo/Ray Interactor.unity
     guid: b1e987039422b854ebe34c5f4bda4697
   - enabled: 0
-    path: Assets/Scenes/VR/Intractor Demo/Direct Interactor.unity
+    path: Assets/Scenes/XR/Intractor Demo/Direct Interactor.unity
     guid: eb43c64084d79824895b96e19d7017c1
   - enabled: 0
     path: Assets/Scenes/AR/Interactable/ARPlacementInteractable.unity

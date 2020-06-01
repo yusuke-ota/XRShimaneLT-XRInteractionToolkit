@@ -146,7 +146,7 @@ ARCoreXRPluginがない時の動作.gif
 
 ---
 
-## VR
+## XR(要コントローラー)
 
 ### Interactor
 
@@ -249,47 +249,18 @@ Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
 
 ---
 
-### ロコモーション
-
----
-
-#### SnapTurnProvider
-
----
-
-// todo:
-
----
-
-#### TeleportationProvider
-
----
-
-// todo:
-
----
-
-#### TeleportationAnchor
-
----
-
-// todo:
-
----
-
-#### TeleportationArea
-
----
-
-// todo:
-
----
-
 ### UIインタラクション
 
 ---
 
 #### TrackedDeviceGraphicRaycaster
+
+コントローラーがあればVR,AR両対応できるらしい
+コントローラー付きのARデバイスを持っていないので、VRのみ確認
+
+<video height="500"><source src="ImageForDocument/TrackedDeviceGraphicRaycaster.mp4"></video>
+
+---
 
 uGUIに重ねて使う  
 XRRayInteractorで操作出来るようになる
@@ -298,7 +269,63 @@ XRRayInteractorで操作出来るようになる
 
 ---
 
-AR上の画像
+## VR
+
+---
+
+### ロコモーション
+
+XRRigを動かす機能群
+
+![XRRig](./ImageForDocument/XRRig.png)
+
+---
+
+#### SnapTurnProvider
+
+コントローラの水平キー入力でカメラを回転させる機能
+
+<video height="500"><source src="ImageForDocument/SnapTurn.mp4"></video>
+
+---
+
+![SnapTurnProvider](./ImageForDocument/SnapTurnProvider.png)
+
+---
+
+#### TeleportationProvider
+
+後述のTeleportationAnchor, Areaを駆動する
+
+<video height="500"><source src="ImageForDocument/TeleportationProvider.mp4"></video>
+
+---
+
+![TeleportationProvider](./ImageForDocument/TeleportationProvider.png)
+
+---
+
+#### TeleportationAnchor
+
+指定したアンカーの中心にテレポートする機能
+
+<video height="500"><source src="ImageForDocument/TeleportationAnchor.mp4"></video>
+
+---
+
+![TeleportationAnchor](./ImageForDocument/TeleportationAnchor.png)
+
+---
+
+#### TeleportationArea
+
+指定したエリアのどこへでもテレポートできる機能
+
+<video height="500"><source src="ImageForDocument/TeleportationArea.mp4"></video>
+
+---
+
+![TeleportationArea](./ImageForDocument/TeleportationArea.png)
 
 ---
 
@@ -403,15 +430,10 @@ AR上の画像
 
 UnityはXR系の開発環境を一本化しようとしているぞ  
 AR,MR周りはAR Foundationを使うといいぞ  
-(ARとVRは別だが)人間からの入力を共通化できるぞ  
+(要コントローラー)人間からの入力を共通化できるぞ  
 なんかXR Interaction Toolkitの機能の説明をしたぞ  
 
-</span>
-
-<span style="font-size: 50px">
-
-そんなことより  
-**〇〇 XR Pluginの入れ忘れに気を付けよう**
+コントローラーぁ...
 
 </span>
 
