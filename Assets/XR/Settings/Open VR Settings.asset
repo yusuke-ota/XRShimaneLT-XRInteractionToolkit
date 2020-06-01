@@ -16,6 +16,6 @@ MonoBehaviour:
   InitializationType: 1
   EditorAppKey: application.generated.unity.legacy.xrshimaneinteractiontoolkit.1103654016.exe
   IsLegacy: 1
-  ActionManifestFileRelativeFilePath: D:/3dprojects/XRShimaneInteractionToolkit/Assets/StreamingAssets\SteamVR\legacy_manifest.json
+  ActionManifestFileRelativeFilePath: C:/Users/1732y/Documents/XRShimaneInteractionToolkit/Assets/StreamingAssets\SteamVR\legacy_manifest.json
   MirrorViewMode: 3
   HasCopiedDefaults: 0

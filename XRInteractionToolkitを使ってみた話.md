@@ -128,6 +128,12 @@ ARCoreXRPluginがない時の動作.gif
 
 ---
 
+### 機能分類表
+
+// TODO: 作成
+
+---
+
 ## オブジェクトインタラクション
 
 **Interactor**
@@ -140,6 +146,8 @@ ARCoreXRPluginがない時の動作.gif
 
 ---
 
+## VR
+
 ### Interactor
 
 動作の主体(主にコントローラ)
@@ -150,37 +158,24 @@ ARCoreXRPluginがない時の動作.gif
 
 レイキャストを出す機能、物の指定とか
 
-<div style="float:left;">
+![XRRayInteractor](./ImageForDocument/XRRayInteractor.png)
 
-Unity上の画像
+---
 
-</div>
-
-<div style="float:right;">
-
-AR上の画像
-
-</div>
+VR上の画像
 
 ---
 
 #### XRDirectInteractor
 
 直接オブジェクトを触って操作する機能  
-Coliderが必要  
 よくわかんなかった
 
-<div style="float:left;">
+![XRDirectInteractor](./ImageForDocument/XRDirectInteractor.png)
 
-Unity上の画像
+---
 
-</div>
-
-<div style="float:right;">
-
-AR上の画像
-
-</div>
+VR上の画像
 
 ---
 
@@ -189,17 +184,11 @@ AR上の画像
 対応するオブジェクトを設定した位置に戻す機能  
 イメージとしては磁石
 
-<div style="float:left;">
+![XRSocketInteractor](ImageForDocument/XRSocketInteractor.png)
 
-Unity上の画像
-
-</div>
-
-<div style="float:right;">
+---
 
 VR上の画像
-
-</div>
 
 ---
 
@@ -213,17 +202,11 @@ VR上の画像
 
 カーソルの操作によってイベントを発火させることができる機能
 
-<div style="float:left;">
+![XRSimpleInteractable](./ImageForDocument/XRSimpleInteractable.png)
 
-Unity上の画像
+---
 
-</div>
-
-<div style="float:right;">
-
-AR上の画像
-
-</div>
+VR上の画像
 
 ---
 
@@ -257,17 +240,19 @@ Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
 [Emission](https://docs.unity3d.com/ja/2019.1/Manual/StandardShaderMaterialParameterEmission.html) 対応のシェーダーが必要らしい  
 要Interactable
 
-<div style="float:left;">
+![XRTintInteractable.png](./ImageForDocument/XRTintInteractable.png)
 
-Unity上の画像
+---
 
-</div>
+動画
 
-<div style="float:right;">
+---
 
-AR上の画像
+## AR
 
-</div>
+### Interactor
+
+動作の主体
 
 ---
 
@@ -282,17 +267,79 @@ MainCameraタグが必要 ->
 しかしAR CameraにはデフォルトでMainCameraタグがついていない
 -->
 
-<div style="float:left;">
+![ARGestureInteractor](./ImageForDocument/ARGestureInteractor.png)
 
-![MainCameraタグ](./ImageForDocument/MainCameraタグ.png)
-
-</div>
-
-<div style="float:right;">
+---
 
 AR上の画像
 
-</div>
+---
+
+### Interactable
+
+動作の客体
+
+---
+
+#### ARPlacementInteractable
+
+平面に設定されているプレハブを生成する
+
+![ARPlacementInteractable](./ImageForDocument/ARPlacementInteractable.png)
+
+---
+
+AR上の画像
+
+---
+
+#### ARRotationInteractable
+
+// todo:
+
+---
+
+AR上の画像
+
+---
+
+#### ARScaleInteractable
+
+// todo:
+
+---
+
+AR上の画像
+
+---
+
+#### ARSelectionInteractable
+
+// todo:
+
+---
+
+AR上の画像
+
+---
+
+#### ARTranslationInteractable
+
+// todo:
+
+---
+
+AR上の画像
+
+---
+
+#### ARAnnotationInteractable
+
+// todo:
+
+---
+
+AR上の画像
 
 ---
 
@@ -314,10 +361,6 @@ Unity上の画像
 AR上の画像
 
 </div>
-
----
-
-## オブジェクト配置
 
 ---
 
