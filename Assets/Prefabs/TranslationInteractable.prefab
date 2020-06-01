@@ -211,5 +211,5 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
-  m_ObjectGestureTranslationMode: 2
+  m_ObjectGestureTranslationMode: 0
   m_MaxTranslationDistance: 10

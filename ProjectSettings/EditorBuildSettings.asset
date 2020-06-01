@@ -6,14 +6,59 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/XR/Intractor Demo/Ray Interactor.unity
-    guid: b1e987039422b854ebe34c5f4bda4697
+    path: Assets/Scenes/AR/Interactor/ARGesture Interactor.unity
+    guid: 3156b0043f3a823449f583f20ef27267
+  - enabled: 1
+    path: Assets/Scenes/AR/Interactable/ARPlacementInteractable.unity
+    guid: db5df42a51319e74fbbadbe38821ad1f
+  - enabled: 0
+    path: Assets/Scenes/AR/Interactable/ARAnnotationInteractable.unity
+    guid: eff44fe50cfdd6d408f3e1851d1c6d6d
+  - enabled: 0
+    path: Assets/Scenes/AR/Interactable/ARRotationInteractable.unity
+    guid: 2f7d418f8835dbc4886a903fcaa38968
+  - enabled: 0
+    path: Assets/Scenes/AR/Interactable/ARScaleInteractable.unity
+    guid: 7b8a1b83de578af40b0f33a950468c81
+  - enabled: 0
+    path: Assets/Scenes/AR/Interactable/ARSelectionInteractable.unity
+    guid: 19ebb8d84bff110469d8c5651d13db84
+  - enabled: 0
+    path: Assets/Scenes/AR/Interactable/ARTranslationInteractable.unity
+    guid: 56d775ebc02d2ad4ab26dbebaa018842
+  - enabled: 0
+    path: Assets/Scenes/VR/Locomotion Demo/SnapTurnProvider.unity
+    guid: 57e1edaec9f490e42bda20f6a61dd7d6
+  - enabled: 0
+    path: Assets/Scenes/VR/Locomotion Demo/TeleportationAnchor.unity
+    guid: 1623c2ed46b1d1c4a905a22fadb9810c
+  - enabled: 0
+    path: Assets/Scenes/VR/Locomotion Demo/TeleportationArea.unity
+    guid: 95632ca65c5431143b27fffda412b1c8
+  - enabled: 0
+    path: Assets/Scenes/VR/Locomotion Demo/TeleportationProvider.unity
+    guid: 33665f46611640040a6d712dff8500cb
+  - enabled: 0
+    path: Assets/Scenes/XR/UI Interaction.unity
+    guid: f11c8615e9843bf42af18d0757a21c21
+  - enabled: 0
+    path: Assets/Scenes/XR/Helper Demo/Tint InteractableVisual.unity
+    guid: 2c3839841cbe16347a39f2427a4959bb
+  - enabled: 0
+    path: Assets/Scenes/XR/Interactable Demo/Grab Interactable.unity
+    guid: becd1e1909643f64f99549f650157d52
+  - enabled: 0
+    path: Assets/Scenes/XR/Interactable Demo/Simple Interactable.unity
+    guid: 6e3f6918255c9c44c983ae63ea00331e
   - enabled: 0
     path: Assets/Scenes/XR/Intractor Demo/Direct Interactor.unity
     guid: eb43c64084d79824895b96e19d7017c1
   - enabled: 0
-    path: Assets/Scenes/AR/Interactable/ARPlacementInteractable.unity
-    guid: db5df42a51319e74fbbadbe38821ad1f
+    path: Assets/Scenes/XR/Intractor Demo/Ray Interactor.unity
+    guid: b1e987039422b854ebe34c5f4bda4697
+  - enabled: 0
+    path: Assets/Scenes/XR/Intractor Demo/Socket Interactor.unity
+    guid: f7d53629b9d67c54cb41602061af6e1e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b0122ca7d169f0e448c24c86aa5b607e,
       type: 2}

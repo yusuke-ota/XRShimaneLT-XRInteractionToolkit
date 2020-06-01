@@ -355,7 +355,7 @@ MainCameraタグが必要 ->
 
 タップ等で、オブジェクトを操作する機能
 
-AR上の画像
+AR上の画像 // todo:
 
 ---
 
@@ -369,7 +369,7 @@ AR上の画像
 
 平面に設定されているプレハブを生成する機能
 
-AR上の画像
+// todo:
 
 ---
 
@@ -379,41 +379,49 @@ AR上の画像
 
 #### ARRotationInteractable
 
-AR上の画像
+ツイストでオブジェクトを回転させる機能
+
+// todo:
 
 ---
 
-// todo:
+![ARRotationInteractable](./ImageForDocument/ARRotationInteractable.png)
 
 ---
 
 #### ARScaleInteractable
 
+ピンチでオブジェクトサイズを変更する機能
+
 // todo:
 
 ---
 
-AR上の画像
+![ARScaleInteractable](ImageForDocument/ARScaleInteractable.png)
 
 ---
 
 #### ARSelectionInteractable
 
+タップでオブジェクトを選択する機能
+
 // todo:
 
 ---
 
-AR上の画像
+![ARSelectionInteractable](./ImageForDocument/ARSelectionInteractable.png)
 
 ---
 
 #### ARTranslationInteractable
 
+ドラッグでオブジェクトを移動させる機能
+
 // todo:
 
 ---
 
-AR上の画像
+![ARTranslationInteractable](./ImageForDocument/ARTranslationInteractable.png)
 
 ---
 
@@ -423,7 +431,7 @@ AR上の画像
 
 ---
 
-AR上の画像
+// todo:
 
 ---
 
