@@ -158,37 +158,38 @@ ARCoreXRPluginがない時の動作.gif
 
 レイキャストを出す機能、物の指定とか
 
-![XRRayInteractor](./ImageForDocument/XRRayInteractor.png)
+<video height="500"><source src="ImageForDocument/RayInteractor.mp4"></video>
 
 ---
 
-VR上の画像
+![XRRayInteractor](./ImageForDocument/XRRayInteractor.png)
 
 ---
 
 #### XRDirectInteractor
 
-直接オブジェクトを触って操作する機能  
-よくわかんなかった
+直接オブジェクトを触って操作する機能
 
-![XRDirectInteractor](./ImageForDocument/XRDirectInteractor.png)
+<video height="500"><source src="ImageForDocument/DirectInteractor.mp4"></video>
 
 ---
 
-VR上の画像
+要コライダー
+
+![XRDirectInteractor](./ImageForDocument/XRDirectInteractor.png)
 
 ---
 
 #### XRSocketInteractor
 
 対応するオブジェクトを設定した位置に戻す機能  
-イメージとしては磁石
+イメージとしては磁石  
 
-![XRSocketInteractor](ImageForDocument/XRSocketInteractor.png)
+<video height="500"><source src="ImageForDocument/SocketInteractor.mp4"></video>
 
 ---
 
-VR上の画像
+![XRSocketInteractor](ImageForDocument/XRSocketInteractor.png)
 
 ---
 
@@ -202,11 +203,11 @@ VR上の画像
 
 カーソルの操作によってイベントを発火させることができる機能
 
-![XRSimpleInteractable](./ImageForDocument/XRSimpleInteractable.png)
+<video height="500"><source src="ImageForDocument/SimpleInteractable.mp4"></video>
 
 ---
 
-VR上の画像
+![XRSimpleInteractable](./ImageForDocument/XRSimpleInteractable.png)
 
 ---
 
@@ -214,13 +215,14 @@ VR上の画像
 
 XRSimpleInteractable + つかむ機能  
 基本的に持ち運び出来るオブジェクトにはこっち
+
 <video height="500"><source src="ImageForDocument/GrabInteractable.mp4"></video>
 
 ---
 
 <div style="width:70%; float:left;">
 
-<img src=ImageForDocument/XRGrabInstractable.png>
+<img src=./ImageForDocument/XRGrabInstractable.png alt="XRGrabInstractable">
 
 </div>
 
@@ -237,14 +239,13 @@ Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
 #### XRTintInteractableVisual
 
 カーソルホバー、選択時などで、オブジェクトの色を変えて強調する機能  
-[Emission](https://docs.unity3d.com/ja/2019.1/Manual/StandardShaderMaterialParameterEmission.html) 対応のシェーダーが必要らしい  
-要Interactable
+要[Emission](https://docs.unity3d.com/ja/2019.1/Manual/StandardShaderMaterialParameterEmission.html) 対応シェーダー、Interactable
 
-![XRTintInteractable.png](./ImageForDocument/XRTintInteractable.png)
+<video height="500"><source src="ImageForDocument/TintInteractableVisual.mp4"></video>
 
 ---
 
-動画
+![XRTintInteractable.png](./ImageForDocument/XRTintInteractable.png)
 
 ---
 

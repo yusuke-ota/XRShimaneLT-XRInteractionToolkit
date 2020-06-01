@@ -122,96 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &13697715
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 13697719}
-  - component: {fileID: 13697718}
-  - component: {fileID: 13697717}
-  - component: {fileID: 13697716}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &13697716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13697715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab68ce6587aab0146b8dabefbd806791, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickSpeed: 0.3
-  moveDeadzone: 0.6
-  repeatDelay: 0.5
-  repeatRate: 0.1
-  trackedDeviceDragThresholdMultiplier: 2
-  m_MaxTrackedDeviceRaycastDistance: 1000
-  m_EnableXRInput: 1
-  m_EnableMouseInput: 1
-  m_EnableTouchInput: 1
---- !u!114 &13697717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13697715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab68ce6587aab0146b8dabefbd806791, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickSpeed: 0.3
-  moveDeadzone: 0.6
-  repeatDelay: 0.5
-  repeatRate: 0.1
-  trackedDeviceDragThresholdMultiplier: 2
-  m_MaxTrackedDeviceRaycastDistance: 1000
-  m_EnableXRInput: 1
-  m_EnableMouseInput: 1
-  m_EnableTouchInput: 1
---- !u!114 &13697718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13697715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &13697719
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13697715}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 962316125}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &56063543
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +721,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
-  m_StartingSelectedInteractable: {fileID: 1407964390}
+  m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -1089,7 +999,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2117027774}
-  - {fileID: 13697719}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1395,6 +1304,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 239323751}
     m_Modifications:
+    - target: {fileID: 7601203196109643957, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601203196109643957, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601203196109643957, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601203196109643957, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601203196109643957, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601203196109643957, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
     - target: {fileID: 7601203196529804529, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
         type: 3}
       propertyPath: m_Name
@@ -1423,7 +1362,7 @@ PrefabInstance:
     - target: {fileID: 7601203196529804543, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7601203196529804543, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
         type: 3}
@@ -1433,7 +1372,7 @@ PrefabInstance:
     - target: {fileID: 7601203196529804543, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7601203196529804543, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
         type: 3}
@@ -1448,7 +1387,7 @@ PrefabInstance:
     - target: {fileID: 7601203196529804543, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7601203196529804543, guid: 1a7f969f9dc19b9479ccee1ecfe34ff4,
         type: 3}
@@ -1715,7 +1654,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
-  m_StartingSelectedInteractable: {fileID: 1081848729}
+  m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -1796,7 +1735,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
-  m_StartingSelectedInteractable: {fileID: 56063545}
+  m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEnter:
     m_PersistentCalls:
       m_Calls: []
