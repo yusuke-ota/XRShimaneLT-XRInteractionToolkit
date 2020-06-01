@@ -8,12 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/AR/Interactor/ARGesture Interactor.unity
     guid: 3156b0043f3a823449f583f20ef27267
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR/Interactable/ARPlacementInteractable.unity
     guid: db5df42a51319e74fbbadbe38821ad1f
-  - enabled: 0
-    path: Assets/Scenes/AR/Interactable/ARAnnotationInteractable.unity
-    guid: eff44fe50cfdd6d408f3e1851d1c6d6d
   - enabled: 0
     path: Assets/Scenes/AR/Interactable/ARRotationInteractable.unity
     guid: 2f7d418f8835dbc4886a903fcaa38968

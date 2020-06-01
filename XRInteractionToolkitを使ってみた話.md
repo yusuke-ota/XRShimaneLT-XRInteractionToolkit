@@ -341,6 +341,12 @@ XRRigを動かす機能群
 
 #### ARGestureInteractor
 
+タップ等で、オブジェクトを操作する機能
+
+![ARGestureInteractor](./ImageForDocument/ARGestureInteractor.gif)
+
+---
+
 AR CameraにMainCameraタグが必要
 
 <!-- 
@@ -350,12 +356,6 @@ MainCameraタグが必要 ->
 -->
 
 ![ARGestureInteractor](./ImageForDocument/ARGestureInteractor.png)
-
----
-
-タップ等で、オブジェクトを操作する機能
-
-AR上の画像 // todo:
 
 ---
 
@@ -369,7 +369,7 @@ AR上の画像 // todo:
 
 平面に設定されているプレハブを生成する機能
 
-// todo:
+![ARPlacementInteractable](./ImageForDocument/ARPlacementInteractable.gif)
 
 ---
 
@@ -377,13 +377,27 @@ AR上の画像 // todo:
 
 ---
 
+#### ARSelectionInteractable
+
+タップでオブジェクトを選択する機能
+
+![ARSelectionInteractable](./ImageForDocument/ARSelectionInteractable.gif)
+
+---
+
+![ARSelectionInteractable](./ImageForDocument/ARSelectionInteractable.png)
+
+---
+
 #### ARRotationInteractable
 
 ツイストでオブジェクトを回転させる機能
 
-// todo:
+![ARRotationInteractable](./ImageForDocument/ARRotationInteractable.gif)
 
 ---
+
+要ARSelectionInteractable
 
 ![ARRotationInteractable](./ImageForDocument/ARRotationInteractable.png)
 
@@ -393,23 +407,13 @@ AR上の画像 // todo:
 
 ピンチでオブジェクトサイズを変更する機能
 
-// todo:
+![ARScaleInteractable](./ImageForDocument/ARScaleInteractable.gif)
 
 ---
+
+要ARSelectionInteractable
 
 ![ARScaleInteractable](ImageForDocument/ARScaleInteractable.png)
-
----
-
-#### ARSelectionInteractable
-
-タップでオブジェクトを選択する機能
-
-// todo:
-
----
-
-![ARSelectionInteractable](./ImageForDocument/ARSelectionInteractable.png)
 
 ---
 
@@ -417,9 +421,11 @@ AR上の画像 // todo:
 
 ドラッグでオブジェクトを移動させる機能
 
-// todo:
+![ARTranslationInteractable](./ImageForDocument/ARTranslationInteractable.gif)
 
 ---
+
+要ARSelectionInteractable
 
 ![ARTranslationInteractable](./ImageForDocument/ARTranslationInteractable.png)
 
@@ -427,11 +433,10 @@ AR上の画像 // todo:
 
 #### ARAnnotationInteractable
 
-// todo:
+所定の角度、範囲内にオブジェクトがある場合  
+アノテーション用のオブジェクトを表示、非表示にできるらしい
 
----
-
-// todo:
+上手く動かせなかった
 
 ---
 
