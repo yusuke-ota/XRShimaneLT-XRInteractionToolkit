@@ -110,7 +110,7 @@ ARCoreXRPluginがない時の動作.gif
 
 </div>
 
-**VR**: UI操作、つかむ動作、スナップ機能、テレポーテーション  
+**VR**: UI操作、つかむ動作、スナップ、テレポート  
 **AR**: UI操作、オブジェクト操作、オブジェクト生成
 
 ---
@@ -148,6 +148,8 @@ ARCoreXRPluginがない時の動作.gif
 
 ## XR(要コントローラー)
 
+---
+
 ### Interactor
 
 動作の主体(主にコントローラ)
@@ -158,7 +160,7 @@ ARCoreXRPluginがない時の動作.gif
 
 レイキャストを出す機能、物の指定とか
 
-<video height="500"><source src="ImageForDocument/RayInteractor.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/RayInteractor.mp4"></video>
 
 ---
 
@@ -170,7 +172,7 @@ ARCoreXRPluginがない時の動作.gif
 
 直接オブジェクトを触って操作する機能
 
-<video height="500"><source src="ImageForDocument/DirectInteractor.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/DirectInteractor.mp4"></video>
 
 ---
 
@@ -182,10 +184,9 @@ ARCoreXRPluginがない時の動作.gif
 
 #### XRSocketInteractor
 
-対応するオブジェクトを設定した位置に戻す機能  
-イメージとしては磁石  
+対応するオブジェクトを設定した位置に戻す機能
 
-<video height="500"><source src="ImageForDocument/SocketInteractor.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/SocketInteractor.mp4"></video>
 
 ---
 
@@ -201,9 +202,9 @@ ARCoreXRPluginがない時の動作.gif
 
 #### XRSimpleInteractable
 
-カーソルの操作によってイベントを発火させることができる機能
+カーソルの操作でイベントを発火させる機能
 
-<video height="500"><source src="ImageForDocument/SimpleInteractable.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/SimpleInteractable.mp4"></video>
 
 ---
 
@@ -213,10 +214,9 @@ ARCoreXRPluginがない時の動作.gif
 
 #### XRGrabInteractable
 
-XRSimpleInteractable + つかむ機能  
-基本的に持ち運び出来るオブジェクトにはこっち
+XRSimpleInteractable + つかむ機能
 
-<video height="500"><source src="ImageForDocument/GrabInteractable.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/GrabInteractable.mp4"></video>
 
 ---
 
@@ -238,12 +238,13 @@ Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
 
 #### XRTintInteractableVisual
 
-カーソルホバー、選択時などで、オブジェクトの色を変えて強調する機能  
-要[Emission](https://docs.unity3d.com/ja/2019.1/Manual/StandardShaderMaterialParameterEmission.html) 対応シェーダー、Interactable
+アクション時、色を変えて強調する機能
 
-<video height="500"><source src="ImageForDocument/TintInteractableVisual.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/TintInteractableVisual.mp4"></video>
 
 ---
+
+要[Emission](https://docs.unity3d.com/ja/2019.1/Manual/StandardShaderMaterialParameterEmission.html) 対応シェーダー、Interactable
 
 ![XRTintInteractable.png](./ImageForDocument/XRTintInteractable.png)
 
@@ -256,9 +257,8 @@ Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
 #### TrackedDeviceGraphicRaycaster
 
 コントローラーがあればVR,AR両対応できるらしい
-コントローラー付きのARデバイスを持っていないので、VRのみ確認
 
-<video height="500"><source src="ImageForDocument/TrackedDeviceGraphicRaycaster.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/TrackedDeviceGraphicRaycaster.mp4"></video>
 
 ---
 
@@ -283,9 +283,9 @@ XRRigを動かす機能群
 
 #### SnapTurnProvider
 
-コントローラの水平キー入力でカメラを回転させる機能
+水平キー入力でカメラを回転させる機能
 
-<video height="500"><source src="ImageForDocument/SnapTurn.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/SnapTurn.mp4"></video>
 
 ---
 
@@ -297,7 +297,7 @@ XRRigを動かす機能群
 
 後述のTeleportationAnchor, Areaを駆動する
 
-<video height="500"><source src="ImageForDocument/TeleportationProvider.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/TeleportationProvider.mp4"></video>
 
 ---
 
@@ -307,9 +307,9 @@ XRRigを動かす機能群
 
 #### TeleportationAnchor
 
-指定したアンカーの中心にテレポートする機能
+指定したTransformにテレポートする機能
 
-<video height="500"><source src="ImageForDocument/TeleportationAnchor.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/TeleportationAnchor.mp4"></video>
 
 ---
 
@@ -319,9 +319,9 @@ XRRigを動かす機能群
 
 #### TeleportationArea
 
-指定したエリアのどこへでもテレポートできる機能
+エリア内のどこへでもテレポートできる機能
 
-<video height="500"><source src="ImageForDocument/TeleportationArea.mp4"></video>
+<video autoplay loop height="500"><source src="ImageForDocument/TeleportationArea.mp4"></video>
 
 ---
 
@@ -331,6 +331,8 @@ XRRigを動かす機能群
 
 ## AR
 
+---
+
 ### Interactor
 
 動作の主体
@@ -339,8 +341,7 @@ XRRigを動かす機能群
 
 #### ARGestureInteractor
 
-タップ、スワイプ、ピンチなどで、オブジェクトを操作する機能  
-**はまりポイント**: AR CameraにMainCameraタグが必要
+AR CameraにMainCameraタグが必要
 
 <!-- 
 GetValidTargets()内でCamera.mainを使用する -> 
@@ -351,6 +352,8 @@ MainCameraタグが必要 ->
 ![ARGestureInteractor](./ImageForDocument/ARGestureInteractor.png)
 
 ---
+
+タップ等で、オブジェクトを操作する機能
 
 AR上の画像
 
@@ -364,23 +367,23 @@ AR上の画像
 
 #### ARPlacementInteractable
 
-平面に設定されているプレハブを生成する
+平面に設定されているプレハブを生成する機能
+
+AR上の画像
+
+---
 
 ![ARPlacementInteractable](./ImageForDocument/ARPlacementInteractable.png)
 
 ---
 
-AR上の画像
-
----
-
 #### ARRotationInteractable
 
-// todo:
+AR上の画像
 
 ---
 
-AR上の画像
+// todo:
 
 ---
 
@@ -426,20 +429,18 @@ AR上の画像
 
 ## まとめ
 
-<span style="font-size: 35px" >
-
-UnityはXR系の開発環境を一本化しようとしているぞ  
-AR,MR周りはAR Foundationを使うといいぞ  
-(要コントローラー)人間からの入力を共通化できるぞ  
-なんかXR Interaction Toolkitの機能の説明をしたぞ  
+* UnityはXR系の開発環境を一本化しようとしているっぽい  
+* AR,MR周りはAR Foundationを使うと良い  
+* (要コントローラー)人間からの入力を共通化できる  
+* なんかXR Interaction Toolkitの機能の説明をした  
 
 コントローラーぁ...
-
-</span>
 
 ---
 
 ## 参考文献
+
+<span style="font-size: 35px; text-align: left;">
 
 Unity XR プラットフォームの最新情報  
 <https://blogs.unity3d.com/jp/2020/01/24/unity-xr-platform-updates/>
@@ -447,9 +448,13 @@ Unity XR プラットフォームの最新情報
 About AR Foundation  
 <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.0/manual/index.html>
 
+</span>
+
 ---
 
 ## 参考文献(XR Interaction Toolkit)
+
+<span style="font-size: 35px; text-align: left;">
 
 XR Interaction ツールキットのプレビューパッケージ公開  
 <https://blogs.unity3d.com/jp/2019/12/17/xr-interaction-toolkit-preview-package-is-here/>
@@ -459,3 +464,5 @@ XR Interaction Toolkit
 
 XR Interaction Examples  
 <https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples>
+
+</span>
