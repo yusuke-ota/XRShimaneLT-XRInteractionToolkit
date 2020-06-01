@@ -160,7 +160,7 @@ ARCoreXRPluginがない時の動作.gif
 
 レイキャストを出す機能、物の指定とか
 
-<video autoplay loop height="500"><source src="ImageForDocument/RayInteractor.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/RayInteractor.mp4"></video>
 
 ---
 
@@ -172,7 +172,7 @@ ARCoreXRPluginがない時の動作.gif
 
 直接オブジェクトを触って操作する機能
 
-<video autoplay loop height="500"><source src="ImageForDocument/DirectInteractor.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/DirectInteractor.mp4"></video>
 
 ---
 
@@ -186,7 +186,7 @@ ARCoreXRPluginがない時の動作.gif
 
 対応するオブジェクトを設定した位置に戻す機能
 
-<video autoplay loop height="500"><source src="ImageForDocument/SocketInteractor.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/SocketInteractor.mp4"></video>
 
 ---
 
@@ -204,7 +204,7 @@ ARCoreXRPluginがない時の動作.gif
 
 カーソルの操作でイベントを発火させる機能
 
-<video autoplay loop height="500"><source src="ImageForDocument/SimpleInteractable.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/SimpleInteractable.mp4"></video>
 
 ---
 
@@ -216,7 +216,7 @@ ARCoreXRPluginがない時の動作.gif
 
 XRSimpleInteractable + つかむ機能
 
-<video autoplay loop height="500"><source src="ImageForDocument/GrabInteractable.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/GrabInteractable.mp4"></video>
 
 ---
 
@@ -240,7 +240,7 @@ Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
 
 アクション時、色を変えて強調する機能
 
-<video autoplay loop height="500"><source src="ImageForDocument/TintInteractableVisual.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/TintInteractableVisual.mp4"></video>
 
 ---
 
@@ -258,7 +258,7 @@ Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
 
 コントローラーがあればVR,AR両対応できるらしい
 
-<video autoplay loop height="500"><source src="ImageForDocument/TrackedDeviceGraphicRaycaster.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/TrackedDeviceGraphicRaycaster.mp4"></video>
 
 ---
 
@@ -285,7 +285,7 @@ XRRigを動かす機能群
 
 水平キー入力でカメラを回転させる機能
 
-<video autoplay loop height="500"><source src="ImageForDocument/SnapTurn.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/SnapTurn.mp4"></video>
 
 ---
 
@@ -297,7 +297,7 @@ XRRigを動かす機能群
 
 後述のTeleportationAnchor, Areaを駆動する
 
-<video autoplay loop height="500"><source src="ImageForDocument/TeleportationProvider.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/TeleportationProvider.mp4"></video>
 
 ---
 
@@ -309,7 +309,7 @@ XRRigを動かす機能群
 
 指定したTransformにテレポートする機能
 
-<video autoplay loop height="500"><source src="ImageForDocument/TeleportationAnchor.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/TeleportationAnchor.mp4"></video>
 
 ---
 
@@ -321,7 +321,7 @@ XRRigを動かす機能群
 
 エリア内のどこへでもテレポートできる機能
 
-<video autoplay loop height="500"><source src="ImageForDocument/TeleportationArea.mp4"></video>
+<video autoplay loop controls height="500"><source src="ImageForDocument/TeleportationArea.mp4"></video>
 
 ---
 
