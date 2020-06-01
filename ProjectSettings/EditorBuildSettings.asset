@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/VR/Intractor Demo/Direct Interactor.unity
     guid: eb43c64084d79824895b96e19d7017c1
   - enabled: 0
-    path: Assets/Scenes/AR/ARGesture Interactor.unity
+    path: Assets/Scenes/AR/Interactable/ARPlacementInteractable.unity
     guid: db5df42a51319e74fbbadbe38821ad1f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b0122ca7d169f0e448c24c86aa5b607e,

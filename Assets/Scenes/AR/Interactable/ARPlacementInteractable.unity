@@ -286,7 +286,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
-  m_PlacementPrefab: {fileID: 1848578571001163652, guid: a7ed13ccbc837104a995884e7b31aed2,
+  m_PlacementPrefab: {fileID: 8500446484335533555, guid: 24e72c543ebe9bf41a7477e7c910a84f,
     type: 3}
   m_OnObjectPlaced:
     m_PersistentCalls:
@@ -405,12 +405,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 889494390}
-  - component: {fileID: 889494386}
   - component: {fileID: 889494385}
   - component: {fileID: 889494391}
   - component: {fileID: 889494389}
   - component: {fileID: 889494388}
   - component: {fileID: 889494387}
+  - component: {fileID: 889494386}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: MainCamera

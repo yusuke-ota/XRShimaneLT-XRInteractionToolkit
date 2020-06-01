@@ -110,7 +110,7 @@ ARCoreXRPluginがない時の動作.gif
 
 </div>
 
-**VR**: UI操作、つかむ動作、スナップ機能、歩行  
+**VR**: UI操作、つかむ動作、スナップ機能、テレポーテーション  
 **AR**: UI操作、オブジェクト操作、オブジェクト生成
 
 ---
@@ -248,6 +248,59 @@ Instantaneous: Physicsがかからない(Dynamic updateっていつ?)
 
 ---
 
+### ロコモーション
+
+---
+
+#### SnapTurnProvider
+
+---
+
+// todo:
+
+---
+
+#### TeleportationProvider
+
+---
+
+// todo:
+
+---
+
+#### TeleportationAnchor
+
+---
+
+// todo:
+
+---
+
+#### TeleportationArea
+
+---
+
+// todo:
+
+---
+
+### UIインタラクション
+
+---
+
+#### TrackedDeviceGraphicRaycaster
+
+uGUIに重ねて使う  
+XRRayInteractorで操作出来るようになる
+
+![TrackedDeviceGraphicRaycaster](./ImageForDocument/TrackedDeviceGraphicRaycaster.png)
+
+---
+
+AR上の画像
+
+---
+
 ## AR
 
 ### Interactor
@@ -343,27 +396,6 @@ AR上の画像
 
 ---
 
-## UIインタラクション
-
-### TrackedDeviceGraphicRaycaster
-
-uGUIに重ねて使う  
-XRRayInteractorで操作出来るようになる
-
-<div style="float:left;">
-
-Unity上の画像
-
-</div>
-
-<div style="float:right;">
-
-AR上の画像
-
-</div>
-
----
-
 ## まとめ
 
 <span style="font-size: 35px" >
@@ -375,7 +407,7 @@ AR,MR周りはAR Foundationを使うといいぞ
 
 </span>
 
-<span style="font-size: 50px" >
+<span style="font-size: 50px">
 
 そんなことより  
 **〇〇 XR Pluginの入れ忘れに気を付けよう**
