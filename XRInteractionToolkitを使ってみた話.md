@@ -15,7 +15,8 @@ transition : "default"
 </style>
 
 # XR Interaction Toolkit
-## を使ってみた話
+## ~~を使ってみた話~~
+## ではまった話
 
 <div style="float:right;">
 
@@ -130,7 +131,7 @@ ARCoreXRPluginがない時の動作.gif
 
 ### 機能分類表
 
-// TODO: 作成
+![機能分類表](./ImageForDocument/XRInteractionToolkitFanctions.png)
 
 ---
 
