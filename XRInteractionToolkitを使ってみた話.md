@@ -94,7 +94,7 @@ ARCore XR PluginやARKit XR Pluginが
 
 ARCoreXRPluginがない時の動作.gif
 
-![ARCoreXRPluginがない時の動作.gif](./ImageForDocument/ARCoreXRPluginがない時の動作.gif)
+![NoARCoreXRPlugin](./ImageForDocument/NoARCoreXRPlugin.gif)
 
 ---
 
